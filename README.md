@@ -86,7 +86,7 @@ Generate subtitles from Japanese video with 10-minute chunks:
 python subtitle_generator.py my_video.mp4 --chunk-duration 600 --language ja
 ```
 
-![Japanese Example 1](jap-preview.gif)
+![Japanese Example 1](jap-preview-1.gif)
 
 ![Japanese Example 2](jap-preview-2.gif)
 
