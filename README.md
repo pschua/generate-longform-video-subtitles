@@ -15,6 +15,7 @@ A command-line tool that automatically generates subtitles for long-form videos 
 ### Prerequisites
 
 - Python 3.8 or higher
+- A CUDA-compatible GPU (optional, but recommended for faster processing)
 - FFmpeg (required for video processing)
 ```bash
 # on Ubuntu or Debian
@@ -83,6 +84,10 @@ Generate subtitles from Japanese video with 10-minute chunks:
 ```bash
 python subtitle_generator.py my_video.mp4 --chunk-duration 600 --language ja
 ```
+
+![Japanese Example 1](jap-preview.gif)
+
+![Japanese Example 2](jap-preview-2.gif)
 
 ## License
 
