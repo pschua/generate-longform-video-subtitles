@@ -71,7 +71,8 @@ python subtitle_generator.py video_file.mp4 --chunk-duration 100 --output custom
 - `--chunk-duration`: Target duration in seconds for each chunk (default: 300)
 - `--output`, `-o`: Custom output filename for the subtitle file
 - `--device`: Device to use for transcription (default: `cuda` if available, otherwise `cpu`)
-- `--language`: Language code for transcription (default: `ja` for Japanese)
+- `--language`: Language code for transcription (default: `ja` for Japanese) 
+  - [language codes](https://github.com/openai/whisper/blob/main/whisper/tokenizer.py#L38)
 
 ## Examples
 
@@ -85,9 +86,11 @@ Generate subtitles from Japanese video with 10-minute chunks:
 python subtitle_generator.py my_video.mp4 --chunk-duration 600 --language ja
 ```
 
-![Japanese Example 1](jap-preview.gif)
+![Japanese Example 1](jap-preview-1.gif)
 
 ![Japanese Example 2](jap-preview-2.gif)
+
+![Korean Example](kor-preview.gif)
 
 ## License
 
