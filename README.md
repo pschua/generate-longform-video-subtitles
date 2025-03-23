@@ -39,7 +39,7 @@ scoop install ffmpeg
 1. Clone this repository:
    ```bash
    git clone https://github.com/pschua/generate-longform-video-subtitles.git
-   cd video-subtitle-generator
+   cd generate-longform-video-subtitles
    ```
 
 2. Create a virtual environment (recommended):
